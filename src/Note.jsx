@@ -74,7 +74,7 @@ const Note = () => {
                 </div>
             </div>
             <div className="container-fluid">
-                <div className="row justify-content-center">
+                <div className="row">
                     {addNote.map((item,index)=>{
                         return(
                             <Notes
