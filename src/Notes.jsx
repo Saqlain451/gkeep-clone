@@ -5,7 +5,7 @@ const Notes = ({title,content,onclick,id}) => {
   return (
     <>
         <div className="col-5 col-md-2">
-            <div className="card mt-4">
+            <div className="card mt-4 ms-2">
                 <div className="card-body">
                     <h5>{title}</h5>
                     <p>{content}</p>
