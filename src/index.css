@@ -1,13 +1,68 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@1,400;1,700&family=Josefin+Sans&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: whitesmoke !important;
+  align-items: center;
+}
+header{
+  background-color: 	#F4B400;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Expletus Sans', cursive;
+  text-transform: capitalize !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input,textarea{
+  border: none !important;
+  outline: none !important;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.card{
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.3) !important;
+  border: none !important;
+  outline: none;
+}
+
+.btn{
+  border: none !important;
+  position: absolute !important;
+  border-radius: 50% !important;
+  height: 50px !important;
+  right: -20px !important;
+  bottom: -15px;
+  box-shadow: -2px 3px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+.form-control.focus, .form-control:focus {
+  /* -webkit-box-shadow: none!important; */
+  box-shadow: none!important;
+  outline: 0;
+}
+.btn-outline-warning{
+  background-color: white !important;
+
+}
+
+p{
+  font-family: 'Expletus Sans', cursive;
+}
+
+.btn-outline-warning:hover{
+  background-color: #F4B400 !important;
+  color: aquamarine !important;
+}
+::placeholder{
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  align-items: center !important;
 }
